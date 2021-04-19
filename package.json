@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/CS-BTurner/odd-positive-integer-average.git"
+    "url": "git+ssh://git@github.com/Brad-Turner/odd-positive-integer-average.git"
   },
   "keywords": [
     "Node",
     "Express",
     "Typescript"
   ],
-  "author": "Bradley Turner <bradley.turner@cloudsense.com>",
+  "author": "Bradley Turner <dev.bradturner@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CS-BTurner/odd-positive-integer-average/issues"
+    "url": "https://github.com/Brad-Turner/odd-positive-integer-average/issues"
   },
-  "homepage": "https://github.com/CS-BTurner/odd-positive-integer-average#readme",
+  "homepage": "https://github.com/Brad-Turner/odd-positive-integer-average#readme",
   "devDependencies": {
     "@types/express": ">=4.17.x",
     "@types/jest": ">=26.0.x",
