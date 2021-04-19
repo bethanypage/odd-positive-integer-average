@@ -1,6 +1,6 @@
 # Odd Positive Integer Average
 
-This is a boilerplate project setup for students to setup an express server that exposes a POST endpoint `/odd-positive-average`. The endpoint is pretty self explanatory as it receives a given array of integers and returns the average of only the positive odd integers.
+This is a boilerplate project setup for students to setup an express server that exposes a POST endpoint `/odd-positive-average`. The endpoint expects to receive an array of integers and will return the average of only the odd positive integers.
 
 ## Expected interfaces
 
@@ -38,6 +38,6 @@ If the validation fails, then the server is to response with status code 400 and
 
 - This should be done using Typescript.
 - This can be completed in many different ways. But for **YOUR** benefit using ES6 array functions would be best.
-- You should write unit tests.
+- You should write tests. For integration tests - use [supertest](https://www.npmjs.com/package/supertest).
 
-> "Seek not to complete the problem - instead seek to understand the code you are writing and why it is necessary" - B Turner
+> "Seek not to complete the problem - instead seek to understand the code you are writing and why it is necessary"
