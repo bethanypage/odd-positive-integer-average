@@ -12,8 +12,9 @@ import express from "express";
 
 const app: express.Application = express();
 app.use(express.json());
-const port = process.env.PORT;
+const port = process.env.PORT||3000;
 
+app.set("port", port);
 
 app.post('/', function (req, res)
 {
