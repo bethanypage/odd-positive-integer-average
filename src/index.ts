@@ -2,8 +2,8 @@
  * This file should default export the express application - this is for `index.spec.ts` to be able to test it.
  */
 import { averageOddPositiveIntegers } from './util';
-import express = require('express');
-//import express from "express";
+//import express = require('express');
+import express from "express";
 
 //const express = require('express');
 //https://www.typescriptlang.org/docs/handbook/modules.html#export--and-import--require
